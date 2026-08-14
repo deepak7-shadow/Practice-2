@@ -20,7 +20,7 @@ int main()
     // Pop an element
     cout << "\nPopped element: " << stack[top--] << endl;
 
-    cout << "Stack after pop: ";
+    cout << "Stack after poping an element: ";
     for (int i = top; i >= 0; i--)
     {
         cout << stack[i] << " ";
